@@ -58,6 +58,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # UDFPS
 $(call soong_config_set,samsung_udfps,udfps_zorder,0x20000000u)
+$(call soong_config_set,qtidisplay,samsung_udfps,true)
 
 # Inherit from vendor blobs
 $(call inherit-product-if-exists, vendor/samsung/gts7xlwifi/gts7xlwifi-vendor.mk)
