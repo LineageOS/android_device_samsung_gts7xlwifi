@@ -43,7 +43,15 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lineage
+
+# S Pen
+PRODUCT_PACKAGES += \
+    SPenActions
+
+PRODUCT_PACKAGES += \
+    vendor.samsung.hardware.spen-service
 
 # Sensors
 PRODUCT_PACKAGES += \
