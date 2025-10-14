@@ -29,6 +29,9 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 WITH_GMS_COMMS_SUITE := false
 
 # Display
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947232161729153.xml
+
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.primary_display_orientation=ORIENTATION_270
 
