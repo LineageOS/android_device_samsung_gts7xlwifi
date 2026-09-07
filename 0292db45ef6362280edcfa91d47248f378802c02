@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b34245e9_87b1d9c5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-09-07T13:57:45Z",
+      "side": 1,
+      "message": "You might want to check out https://github.com/ExtremeXT/BrightnessSpline for generating a linear screenBrightnessMap that matches stock.",
+      "revId": "0292db45ef6362280edcfa91d47248f378802c02",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
